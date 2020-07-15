@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap");
+* {
+  font-family: 'Open Sans';
+}
+
+a {
+  cursor: pointer;
+  -webkit-transition: .4s ease;
+  transition: .4s ease;
+}
+
+header {
+  background-color: #10151b;
+}
+
+.title-font {
+  font-family: 'Montserrat';
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+#home img {
+  -webkit-filter: hue-rotate(-25deg) brightness(1.2);
+          filter: hue-rotate(-25deg) brightness(1.2);
+}
+
+.stats {
+  background-color: #10151b;
+}
+
+#skills {
+  background-color: #10151b;
+}
+
+#aboutme {
+  background-color: #10151b;
+}
+
+footer {
+  background-color: #10151b;
+}
+/*# sourceMappingURL=stylesheet.css.map */
