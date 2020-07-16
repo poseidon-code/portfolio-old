@@ -10,8 +10,7 @@ a {
     cursor: pointer;
     transition: .4s ease;
 }
-
-header {
+header, .stats, #skills, #aboutme, footer {
     background-color: #10151b;
 }
 
@@ -29,18 +28,15 @@ header {
     }
 }
 
-.stats {
-    background-color: #10151b;
+::-webkit-scrollbar {
+    width: .8rem;
 }
-
-#skills {
-    background-color: #10151b;
+::-webkit-scrollbar-track {
+    background: #2D3748;
 }
-
-#aboutme {
-    background-color: #10151b;
+::-webkit-scrollbar-thumb {
+    background: #319795;
 }
-
-footer {
-    background-color: #10151b;
+::-webkit-scrollbar-thumb:hover {
+    background: #38B2AC;
 }
